@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700&display=swap');
+
+:root {
+    --primary-color: #003366;
+    --secondary-color: #228B22;
+    --accent1-color: #F1C40F;
+    --accent2-color: #7f8c8d;
+  
+    --heading-font: 'Montserrat', serif;
+    --paragraph-font: 'Open Sans', serif;
+  
+    --nav-background-color: #003366;
+    --nav-link-color: #FFFFFF;
+    --nav-hover-link-color: #F1C40F;
+    --nav-hover-background-color: #228B22;
+}
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 93.5%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 91.5%;
+    /*max-width: 50%;*/
+}
+
+.hero article img {
+    float: right;
+    margin-left: 20px;
+    width: 150px;/*50%;*/
+    height: auto;
+    border-radius: 8px;
+}
+
+.hero article {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 8px;
+}
+
+.hero img,
+.hero h1,
+.hero article img {
+  display: block;
+}
+
+header {
+    padding: 0;/*20px;*/
+    /*background-color: var(--accent1-color);*/
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+  
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+  
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+  
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
