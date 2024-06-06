@@ -180,3 +180,122 @@ footer p {
 section {
     text-align: center;
 }
+
+.photo-gallery {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.photo-gallery figure {
+    margin: 0;
+    padding: 0;
+}
+
+.photo-gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+.photo-gallery figcaption {
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.company-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+}
+
+.map {
+    text-align: center;
+    margin: 0;
+}
+
+.contact-gallery {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+label {
+    width: 100px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-group input[type="radio"] {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.checkbox-group {
+    margin-left: 5px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.checkbox-group input[type="checkbox"] {
+    flex-shrink: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.checkbox-group label {
+    margin-left: 5px;
+    width:auto;
+    text-align: left;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
